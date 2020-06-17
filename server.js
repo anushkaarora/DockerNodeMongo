@@ -8,10 +8,10 @@ const client = mongodb.MongoClient;
 
 client.connect(config.DB, function(err, db) {
     if(err) {
-        console.log('database is not connected')
+        console.log('connected')
     }
     else {
-        console.log('connected!!')
+        console.log('database not connected!!')
     }
 });
 
