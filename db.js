@@ -1,3 +1,3 @@
 module.exports = {
-    DB: 'mongo-ds-dev-mongodb-replicaset-client:27017/sale'
+    DB: 'mongodb://aoo-dev-mongodb-replicaset-client:27017/sale'
 }
